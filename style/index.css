@@ -68,6 +68,16 @@ header nav {
 .header-picture {
   width: 7.5rem;
 }
+/* ===== section IMG =====  */
+.section__img {
+  background-image: url(/hero-mobile.jpg);
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section__img picture {
+  background-size: contain;
+}
 /* ===== section CONTENT ===== */
 .section__content {
   display: flex;
