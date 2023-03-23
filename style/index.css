@@ -57,6 +57,7 @@ h6 {
 
   --gradient1: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
   --gradient2: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  --gradient3: linear-gradient(135deg, hsl(0, 80%, 92%), hsl(0, 74%, 80%));
 }
 /* ===== header ===== */
 header nav {
@@ -111,14 +112,14 @@ header nav {
   justify-content: space-between;
   border: 1px solid var(--Red);
   border-radius: 50px;
-  overflow: hidden;
-  width: 95%;
+  width: 22rem;
+  height: 4rem;
 }
 .content__form-email {
   border: 0;
   color: var(--Red);
   opacity: 0.7;
-  padding: 1rem;
+  margin: 1rem;
 }
 .content__form-btn {
   height: 4rem;
@@ -133,4 +134,11 @@ header nav {
 }
 input[type="email"]:focus {
   outline: none;
+}
+/* ===== hover ===== */
+.content__form-btn:hover {
+  box-shadow: -4px 0 45px -6px var(--Red);
+  background-image: var(--gradient3);
+  transform: scale(1.05);
+  transition: all 0.3s;
 }
