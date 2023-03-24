@@ -142,3 +142,6 @@ input[type="email"]:focus {
   transform: scale(1.05);
   transition: all 0.3s;
 }
+/* media query */
+@media (min-width: 800px) {
+}
